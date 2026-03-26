@@ -1,0 +1,23 @@
+# Environments
+env/
+venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Large Data Files (Generated)
+# These are too large for GitHub (similarity.pkl is ~800MB)
+*.pkl
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Frontend Component (Streamlit)
+# node_modules can be massive, they should always be ignored
+frontend/frontend/node_modules/
+# Build files are included for portability, but you can ignore them too if you prefer
+# frontend/frontend/public/build/
